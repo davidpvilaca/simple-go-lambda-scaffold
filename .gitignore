@@ -1,0 +1,17 @@
+# Bin files
+bin
+
+# Environment variables
+.env*
+!.env.example
+
+# Terraform state files
+*.tfstate*
+.terraform*
+
+# Logs
+*.log
+
+# Output lambda
+output.json
+output.txt
